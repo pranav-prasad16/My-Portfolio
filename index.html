@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@200;400;500;700;800;900&display=swap" rel="stylesheet">
+    <title>Pranav's Portfolio</title>
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <a  href="index.html"><img class="logo" src="Assets/favicon.ico" alt="logo"></a>                   
+        <ul class="headerItems desktop">
+            <a href="index.html">
+                <li>Home</li></a>
+            <li class="slash">|</li>
+            <a href="DeveloperProject.html">
+                <li>Developer Projects</li></a>
+            <li class="slash">|</li>
+            <a href="#getInTouch">
+                <li>Contact</li></a>
+            <li class="slash">|</li>
+            <button class="resume" id="navResume" onclick="window.open('./Assets/my-resume.pdf')">Resume</button>
+        </ul>    
+        <div class="navbar mobile">
+            <img id="hamburger " class="hamburger ham" hamburger src="Assets/hamburger.svg" >
+            <img id="hamburger " class="hamburger cross" hamburger src="Assets/cross.svg" >
+            <ul class="headerItemsMobile">
+                <a href="index.html">
+                    <li>Home</li></a>
+                <li class="slash">|</li>
+                <a href="DeveloperProject.html">
+                    <li>Developer Projects</li></a>
+                <li class="slash">|</li>
+                <a href="#getInTouch">
+                    <li>Contact</li></a>
+                <li class="slash">|</li>
+                <button class="resume" id="navResume" onclick="window.open('./Assets/my-resume.pdf')">Resume</button>
+            </ul>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="mainImage">
+            <img src="Assets/profile-pic.jpg" alt="Pranav Prasad">
+        </div>
+        <div class="heroText">
+            <br><h1><span id="intro">Hello I'm</span><br>Pranav Prasad</h1><p>I bring ideas to life through Code & Creativity. I'm a full-stack developer and dedicated to turning creative concepts into captivating digital realities.</p><br><br>
+            <p id="devAndDesign"> <span id="code"> &ltdeveloper&gt</span></p>
+        </div>        
+    </div>
+    <div id="bodytag" class="servicesContainer">
+        <div class="services">
+            <h1 class="whatIDo">What I <span>Do</span></h1>
+            <p>I enjoy creating things that adds substantial value to someone's life. As an aspiring software engineer, I’m focused on learning about Backend systems and User Interface to build accessible, user-centric products.</p>
+            <div class="servicesBox">
+                <div class="darkBox">
+                    <img src="Assets/frontend.svg" class="frontend-icon">
+                    <h3>Front-End Development</h3>
+                    <div class="icons">
+                        <img src="Assets/html.svg">
+                        <img src="Assets/css.svg">
+                        <img src="Assets/js.svg">
+                        <img src="Assets/reactjs.svg">
+                        <img src="Assets/typescript.svg">
+                    </div>
+                </div>
+                <div class="darkBox">
+                    <img src="Assets/backend.svg" class="icon-filter">
+                    <h3>Back-End Development</h2>
+                    <div class="icons">
+                        <img src="Assets/nodejs-icon.svg">
+                        <img src="Assets/expressjs-icon.svg" class="icon-filter">
+                        <img src="Assets/typescript.svg">
+                    </div>
+                </div>
+                <div class="darkBox">
+                    <img src="Assets/database.svg" class="icon-filter">
+                    <h3>Database</h2>
+                    <div class="icons">        
+                        <img src="Assets/mongodb-icon.svg">
+                        <img src="Assets/firebase-icon.svg">
+                        <img src="Assets/mysql-icon.svg" class="icon-filter">
+                    </div>
+                </div>
+                <div class="darkBox" id="blockchain">
+                    <img src="Assets/dev.svg" class="icon-filter">
+                    <h3>Devops</h2>
+                        <div class="icons">
+                            <img src="Assets/docker-icon.svg">
+                            <img src="Assets/google-cloud-icon.svg">
+                            <img src="Assets/aws-icon.svg" class="icon-filter">
+                        </div>
+                    </div>
+                </div>
+            <ul class="seeProjects">
+                <a href="DeveloperProject.html"><button class="resume">Developer Projects <img src="Assets/openlink.svg"></button></a>
+                <a><button class="resume" onclick="window.open('./Assets/my-resume.pdf')">Resume <img src="Assets/openlink.svg"></button></a>
+            </ul>
+        </div>
+    </div>
+    <div class="chooseMe">
+        <div class="services">
+            <h1 class="whatIDo">Why Choose <span>Me</span></h1>
+            <p class="ChoosePara">I either know the stuff or I'm Learning, there is no in between.</p>
+            <div class="servicesBox">
+                <div class="darkBox">
+                    <img src="Assets/cleanCode.svg">
+                    <h3>Clean Code</h3>
+                    <p>Well-Structured<br> Understandable & Efficient</p>
+                </div>
+                <div class="darkBox">
+                    <img src="Assets/modernDesign.svg">
+                    <h3>Modern Design</h2>
+                    <p>Functional<br>Minimal & Innovative</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="getInTouch">
+        <div class="services">
+            <p id="getInTouch" name="getInTouch">What's Next?</p>
+            <h1 class="whatIDo" >Get In <span>Touch</span></h1>
+            <p>I’m currently looking for any new opportunities, my inbox is always open.<br> Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+            <a href="mailto:prasadpranav736@gmail.com" target="_blank"><button class="resume" id="helloBtn">Say Hello!</button></a>
+                <!-- <div class="developed">Copied with ❣️ by Pranav Prasad</div> -->
+
+        </div>
+
+        
+    <div class="socials">
+        <div class="socialIcons">
+            <a href="https://github.com/pranav-prasad16" target="_blank"><img src="Assets/github.svg"></a>
+            <a href="https://www.linkedin.com/in/pranav-prasad-90b084252/" target="_blank"><img src="Assets/linkedin.svg"></a>
+            <a href="https://twitter.com/PranavP_16" target="_blank"><img src="Assets/x-icon.svg"></a>
+            <a href="https://www.instagram.com/pranav_736/" target="_blank"><img src="Assets/instagram.svg"></a>
+            <div class="vLine"></div>
+        </div>
+        <div class="mail">
+            <p id="mail">prasadpranav736@gmail.com</p>
+            <div class="vLine"></div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
