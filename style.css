@@ -386,15 +386,15 @@ position: relative;
     max-width: auto;
     height: 4rem;
   }
+  .chooseMe {
+  margin-top: 1rem;
+  }
 }
 @media only screen and (max-width: 600px) {
   :root {
     --mainHeading: 32px;
     --subHeading: 25px;
     --smallFont: 15px;
-  }
-  .chooseMe {
-  margin-top: 1rem;
   }
   p {
     font-size: small;
