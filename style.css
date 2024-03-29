@@ -393,6 +393,9 @@ position: relative;
     --subHeading: 25px;
     --smallFont: 15px;
   }
+  .chooseMe {
+  margin-top: 1rem;
+  }
   p {
     font-size: small;
   }
