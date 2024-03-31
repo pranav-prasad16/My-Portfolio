@@ -390,7 +390,7 @@ position: relative;
     height: 4rem;
   }
   .chooseMe {
-  margin-top: 2rem;
+    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -400,7 +400,7 @@ position: relative;
     --smallFont: 15px;
   }
   .chooseMe {
-  margin-top: 5rem;
+    margin-top: 5rem;
   }
   p {
     font-size: small;
@@ -481,7 +481,7 @@ position: relative;
     padding: 5rem 0;
   }
   .ChoosePara {
-    margin-bottom: 70px;
+    margin-bottom: 0;
   }
   .whatIDo {
     margin-bottom: 10px;
