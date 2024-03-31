@@ -1,6 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif, monospace, 'Dancing Script', cursive;
-  color: aliceblue;
+  color: var(--fontColor);
   transition: 0.2s cubic-bezier(0.43, 0.28, 0, 1.01);
 }
 html {
@@ -34,10 +34,13 @@ a {
   --subHeading: 35px;
   --smallFont: 16px;
   --themeColor: #28c1e0;
-  --bgBolor: #161c1e;
-  --boxColor: #21272a;
+  --bgBolor: #f5f5f5;
+  --boxColor: #ffffff;
   --selectColor: #44535b;
-  --hoverColor: #05333c;
+  --hoverColor: #76dbf0;
+  --bgNavMobile: #aaeaf7;
+  --vlineColor: #000000;
+  --fontColor: #000000;
 }
 h1 {
   font-size: var(--mainHeading);
@@ -268,7 +271,7 @@ position: relative;
   align-items: center;
   gap: 15px;
 }
-.darkBox {
+.box {
   height: 200px;
   width: 180px;
   background: linear-gradient(0deg, var(--boxColor), transparent);
@@ -281,10 +284,10 @@ position: relative;
   transition: 0.2s cubic-bezier(0.43, 0.28, 0, 1.01);
   cursor: default;
 }
-.darkBox p {
+.box p {
   font-size: small;
 }
-.darkBox:hover {
+.box:hover {
   background-color: var(--hoverColor);
 }
 
@@ -314,7 +317,7 @@ position: relative;
   position: absolute;
   bottom: 0px;
   right: 10px;
-  color: var(--themeColor);
+  color: #023252;
   font-size: x-small;
   cursor: default;
 }
@@ -368,7 +371,7 @@ position: relative;
 .vLine {
   height: 40%;
   width: 1px;
-  background-color: aliceblue;
+  background-color: var(--vlineColor);
 }
 .developed {
   position: absolute;
@@ -461,7 +464,7 @@ position: relative;
     align-items: center;
     padding: 10rem 0;
   }
-  .darkBox {
+  .box {
     height: 150px;
     width: 100%;
   }
@@ -495,11 +498,14 @@ position: relative;
     justify-content: center;
     align-items: center;
     font-size: medium;
-    background-color: #05333c;
+    background-color: var(--bgNavMobile);
     overflow: hidden;
     z-index: 2;
     transition: 0.4s cubic-bezier(0.43, 0.28, 0, 1.01);
     transform: translateX(100%);
+  }
+  .headerItemsMobile .resume:hover {
+    background-color: var(--themeColor);
   }
   .headerItemsMobile.open {
     transform: translateX(0);
