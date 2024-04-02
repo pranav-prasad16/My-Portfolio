@@ -106,6 +106,7 @@ li:not(.slash):hover::after {
 }
 .resume:hover {
   background-color: var(--hoverColor);
+  cursor: pointer;
 }
 .resume:not(#navResume):hover {
   transform: translateY(-3px);
